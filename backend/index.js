@@ -21,7 +21,7 @@ let app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
- origin:["https://task-frontend-smj2.onrender.com" , "http://localhost:5174"],
+ origin:["https://task-frontend-smj2.onrender.com" , "https://task-admin-53db.onrender.com"],
  credentials:true
 }))
 
